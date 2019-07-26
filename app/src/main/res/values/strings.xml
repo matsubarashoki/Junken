@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Junken</string>
+    <string name="editmessage">チョキ</string>
+    <string name="editmessag">パー</string>
+    <string name="edit">グー</string>
+    <string name="junken">じゃんけん</string>
+    <string name="subtext">最初はグー</string>
+</resources>
