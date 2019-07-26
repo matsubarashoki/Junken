@@ -5,4 +5,5 @@
     <string name="edit">グー</string>
     <string name="junken">じゃんけん</string>
     <string name="subtext">最初はグー</string>
+    <string name="plaintext">アンドロイドアプリテスト</string>
 </resources>

@@ -10,13 +10,14 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="416dp"
-        android:layout_height="197dp"
+        android:layout_height="0dp"
         android:layout_marginBottom="24dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText">
 
         <Button
             android:id="@+id/rock"
@@ -63,6 +64,20 @@
         android:layout_marginBottom="485dp"
         android:text="@string/subtext"
         android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="358dp"
+        android:layout_marginBottom="107dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/plaintext"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
